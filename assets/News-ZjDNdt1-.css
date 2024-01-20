@@ -1,0 +1,1 @@
+.news-wrapper{height:auto;width:100%;display:flex;justify-content:center}.news-container{width:70%;height:auto;display:flex;flex-direction:column;background-color:red}.news-wrapper::-webkit-scrollbar{width:5px}.news-wrapper::-webkit-scrollbar-thumb{border-radius:8px;background-color:#333}.news-wrapper::-webkit-scrollbar-track{background-color:#474d57;border-radius:8px}
