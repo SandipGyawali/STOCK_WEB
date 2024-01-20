@@ -1,0 +1,328 @@
+/* trend title */
+.crypto-home-container {
+  width: 75%;
+  margin: 60px auto 0px auto;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #474d57;
+}
+
+.info-wrapper {
+  height: fit-content;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #474d5794;
+  border-radius: 25px;
+}
+
+.market-card-content {
+  margin-top: 50px;
+}
+
+/* volume and market cap box */
+.main-box {
+  font-weight: bold;
+}
+
+.market-cap-value {
+  font-size: 25px;
+}
+
+.market-volume-value {
+  font-size: 25px;
+}
+
+.text {
+  color: #474d57;
+}
+
+.market-cap-profit {
+  color: #0fa744;
+  font-weight: bold;
+}
+
+.market-cap-loss {
+  color: #a22026;
+  font-weight: bold;
+}
+
+.heading-content {
+  width: 810px;
+  margin-left: 10px;
+  border: 1px solid #474d5794;
+  border-radius: 25px;
+  padding: 24px;
+  height: 176px;
+}
+
+.sub-content {
+  margin-top: 10px;
+}
+
+/* dynamic component css. */
+.dynamic-content {
+  margin-top: 10px;
+}
+
+.show-hide-content {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  text-decoration: underline;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.show-hide-content:hover {
+  color: lightblue;
+  transition: 0.3s ease;
+}
+
+/* pagination button styling */
+.page-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.page-btn {
+  height: 25px;
+  margin-bottom: 30px;
+}
+
+.pagination-btn {
+  height: 45px;
+  width: fit-content;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #474d57;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.next-btn {
+  width: 70px;
+  height: 45px;
+  padding: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid #474d57;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.previous-btn {
+  width: fit-content;
+  height: 45px;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border: 1px solid #474d57;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.pagination-btn:hover,
+.next-btn:hover,
+.previous-btn:hover {
+  background-color: #474d5763;
+}
+
+.previous-btn:disabled,
+.next-btn:disabled {
+  color: #474d57;
+}
+
+/* table styling */
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.table {
+  width: 94%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table-data {
+  height: 55px;
+  border-top: 1px solid #474d5769;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.table-header {
+  height: 60px;
+  font-size: 20px;
+  border-top: 2px solid #474d57;
+  border-bottom: 2px solid #474d57;
+}
+
+.table-name {
+  margin-top: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  text-align: start;
+  padding-left: 25px;
+  position: relative;
+  left: 20px;
+}
+
+.table-price {
+  padding: 10px;
+}
+
+.table-name img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50px;
+}
+
+.table-name-symbol {
+  font-size: 12px;
+  color: #787b81;
+  font-weight: bold;
+}
+
+.coin-head {
+  width: 180px;
+}
+
+.coin-name a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.table-price-percent-profit {
+  color: #0fa744;
+}
+
+.table-price-percent-loss {
+  color: #a22026;
+}
+
+/* crypto skeleton style */
+.crypto-skeleton-wrapper {
+  margin: 0 auto auto;
+  width: 75%;
+}
+
+.list-card {
+  width: 93%;
+  margin: 0 auto 25px auto;
+  height: fit-content;
+  border-radius: 25px;
+  border: 1px solid #474d5753;
+  padding-bottom: 25px;
+}
+
+.list-row {
+  width: 95%;
+  height: fit-content;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo_name {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo_name .logo {
+  width: 48px;
+  height: 48px;
+  margin-left: 5px;
+}
+
+.logo_name .name {
+  width: 100px;
+  height: 30px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+
+.content-sk {
+  width: 190px;
+  height: 30px;
+}
+
+.list-card .skeleton-line {
+  margin: 10px auto 0 auto;
+  width: 95%;
+  height: 1px;
+  background-color: #474d5753;
+}
+
+.list-top {
+  margin: 50px auto 40px auto;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-top .top {
+  width: 400px;
+  height: 100px;
+}
+
+/* responsive */
+@media (max-width: 1648px) {
+  .crypto-home-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1548px) {
+  .crypto-home-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1210px) {
+  .content-wrapper {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .heading-content {
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #474d5794;
+    border-radius: 25px;
+    margin-left: 0px;
+    height: fit-content;
+  }
+}

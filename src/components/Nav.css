@@ -1,0 +1,183 @@
+/* header style */
+.nav-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav-logo a {
+  font-size: 23px;
+  font-weight: bold;
+  color: #fcd535;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-register {
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-register a {
+  color: #e6e6e6b2;
+  text-decoration: none;
+}
+
+.nav-link {
+  padding: 10px;
+  gap: 5px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  border: 1px solid #fcd535;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.4s ease;
+}
+
+.link-search {
+  border: 1px solid transparent;
+  margin-right: 5px;
+}
+
+.link-search:hover {
+  cursor: pointer;
+}
+
+.search {
+  width: 20px;
+}
+
+/* search hover overlay style */
+.search-overlay {
+  position: absolute;
+  top: 45px;
+  right: 20%;
+  background-color: #1e2329;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -4px,
+    rgba(0, 0, 0, 0.3) 0px 4px 10px -2px;
+  width: 300px;
+  height: 400px;
+  z-index: 2;
+  border-radius: 6px 0px 6px 6px;
+}
+
+/* over lay input wrapper */
+.overlay-search-bar {
+  margin: 15px 8px 5px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* over lay input */
+.overlay-input {
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+  width: 80%;
+  height: 35px;
+  padding: 5px 10px 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: transparent;
+  outline: 1px solid #474d57;
+  margin-right: 5px;
+}
+
+.overlay-input:focus {
+  outline: 1px solid #fcd535;
+  transition: 0.6s ease;
+}
+
+/* search btn */
+.search-btn {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #474d57;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: transparent;
+  color: #fff;
+  font-weight: bold;
+}
+
+.search-btn:hover {
+  border: 1px solid #fcd535;
+  transition: 0.6s ease;
+}
+
+/* search category stylings */
+.overlay-cat-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.overlay-cat-style p {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #474d57;
+  margin: 0 10px;
+}
+
+.overlay-category-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  row-gap: 8px;
+  flex-wrap: wrap;
+  align-items: start;
+  margin-top: 20px;
+}
+
+/* overlay category box */
+.category-box {
+  width: 120px;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffff18;
+  border-radius: 8px;
+}
+
+.category-box:hover {
+  background-color: #ffffff3b;
+  transition: 0.5s ease;
+}
+
+/* for the category option that i choose based on that set the current */
+.current {
+  background-color: #ffffff3b;
+}
+
+/* category image */
+.category-img {
+  width: 40px;
+  height: auto;
+}
+
+@media (max-width: 630px) {
+  .nav-top {
+    width: 100%;
+  }
+
+  .nav-logo a {
+    font-size: 20px;
+  }
+}
