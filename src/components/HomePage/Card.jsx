@@ -18,7 +18,15 @@ function Card({ data }) {
               <div className="list-price-status">
                 <span>
                   {item.item.symbol}{" "}
-                  <span className="symbol">{item.item.name.split(" ")[0]}</span>
+                  {item.item.name.split(" ")[0].length > 12 ? (
+                    <span className="symbol">
+                      {item.item.name.split(" ")[0].slice(0, 10)}..
+                    </span>
+                  ) : (
+                    <span className="symbol">
+                      {item.item.name.split(" ")[0]}
+                    </span>
+                  )}
                 </span>
                 <span
                   className={

@@ -11,14 +11,12 @@ function Header() {
     <header className="header nav-top">
       <div className="nav-logo-wrapper">
         <p className="nav-logo">
-          <Link to="/">CoinPulse</Link>
+          <Link to="/STOCK_WEB">CoinPulse</Link>
         </p>
       </div>
 
       <div className="nav-market-category nav-register">
         <NavLink path="/market/crypto" name="Crypto" />
-        <NavLink path="/market/stocks" name="Stocks" />
-        <NavLink path="/market/news" name="News" />
       </div>
 
       <div className="nav-register ">
