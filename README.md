@@ -62,3 +62,22 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - Thanks to the **CoinGecko team** for providing a reliable and comprehensive API for cryptocurrency data.
 
 Happy tracking! 🚀
+
+<p align="center">Page overview</p>
+
+![image](https://github.com/SandipGyawali/STOCK_WEB/assets/66510112/4b1070f7-764d-4c69-b8eb-0917781515f5)
+
+![image](https://github.com/SandipGyawali/STOCK_WEB/assets/66510112/29f0b56f-1218-4bf1-8d46-ace95b9f92c4)
+
+![image](https://github.com/SandipGyawali/STOCK_WEB/assets/66510112/d04a70c9-d90a-4a11-abb0-df2a4ed3da39)
+
+![image](https://github.com/SandipGyawali/STOCK_WEB/assets/66510112/c874c3db-cd24-476d-b2ac-80ed00074b85)
+
+![image](https://github.com/SandipGyawali/STOCK_WEB/assets/66510112/fcfa2211-5642-4d1b-a670-603161c22b58)
+
+![image](https://github.com/SandipGyawali/STOCK_WEB/assets/66510112/926cdaef-2afd-4468-9eff-9ac680c163b0)
+
+![image](https://github.com/SandipGyawali/STOCK_WEB/assets/66510112/d7ecc792-58d7-46e1-ad5b-62b41a9105fa)
+
+https://github.com/SandipGyawali/STOCK_WEB/assets/66510112/c377fc43-acc1-4369-a78b-d4ee13aac6eb
+
