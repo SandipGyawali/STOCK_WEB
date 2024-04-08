@@ -11,7 +11,7 @@ function Header() {
     <header className="header nav-top">
       <div className="nav-logo-wrapper">
         <p className="nav-logo">
-          <Link to="/STOCK_WEB">CoinPulse</Link>
+          <Link to="/">CoinPulse</Link>
         </p>
       </div>
 

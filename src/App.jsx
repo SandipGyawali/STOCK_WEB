@@ -7,8 +7,7 @@ function App() {
   return (
     <Suspense fallback={<h1>Loading..</h1>}>
       <Routes>
-        <Route path="*" />
-        <Route index path="STOCK_WEB" element={<Home />} />
+        <Route path="/" element={<Home />} />
 
         {routes.map((data, index) =>
           data?.routes ? (
